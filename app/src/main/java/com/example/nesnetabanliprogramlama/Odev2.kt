@@ -11,8 +11,15 @@ fun main() {
     println("Lütfen dikdörtgenin kısa kenarını giriniz:")
     var kisakenar = girdi.nextDouble()
 
-    var dikdortgencevresi = (uzunkenar*2) + (kisakenar*2)
 
-    println("Dikdörtgenin çevresi: $dikdortgencevresi")
+    val dikdortgen = Odev2()
+
+    dikdortgen.islem(kisakenar,uzunkenar)
+
+
+
+
+
+
 
 }
