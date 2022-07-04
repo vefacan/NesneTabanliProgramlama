@@ -11,6 +11,12 @@ fun main (){
     println("Faktöriyelini almak istediğiniz sayıyı giriniz:")
     var sayi = girdi.nextInt()
 
+    val hesaplama = Odev3()
+
+   hesaplama.faktoriyel(5)
+
+
+
 
 
 
