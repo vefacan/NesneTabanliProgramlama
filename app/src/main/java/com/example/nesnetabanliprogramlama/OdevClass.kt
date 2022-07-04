@@ -73,13 +73,36 @@ class Odev6 {
 
         if (sonuc > 160){
 
-           println("Ücretiniz: ${((sonuc - 160) * 20) + (160*10)}")
+           println("Ücretiniz: ${((sonuc - 160) * 20) + (160 * 10)}")
         }
         else {
-            println("Ücretiniz ${sonuc*10}")
-
+            println("Ücretiniz ${sonuc * 10}")
         }
         return sonuc
     }
 
+}
+
+class Odev7 {
+
+
+    fun islem(kota:Int) : Int {
+
+        var para = 0
+
+        if (kota > 50){
+
+            para = (((kota - 50) * 4) + 100)
+            println("Ücretiniz $para")
+
+        }
+
+        else {
+
+            para = 100
+            println("Ücretiniz $para")
+
+        }
+            return para
+    }
 }
