@@ -45,7 +45,6 @@ class Odev4 {
 
         var sonuc = 0
 
-
         for (k in kelime ){
             if (k == harf ){
                 sonuc = sonuc + 1
@@ -53,4 +52,34 @@ class Odev4 {
         }
         println("Harf adeti: $sonuc")
     }
+}
+
+class Odev5 {
+
+    fun islem (kenarsayisi : Int):Int{
+
+        var sonuc = (kenarsayisi - 2) * 180
+        println("İç açılar toplamı : $sonuc")
+        return sonuc
+
+    }
+}
+
+class Odev6 {
+
+    fun islem(gun: Int) : Int {
+
+       var sonuc = (gun * 8)
+
+        if (sonuc > 160){
+
+           println("Ücretiniz: ${((sonuc - 160) * 20) + (160*10)}")
+        }
+        else {
+            println("Ücretiniz ${sonuc*10}")
+
+        }
+        return sonuc
+    }
+
 }
