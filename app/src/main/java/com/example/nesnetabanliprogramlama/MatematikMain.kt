@@ -12,6 +12,7 @@ fun main (){
 
     val x = m.carp(12,5,"Vefa")
 
+
     val veri = m.bol(100.0,2.0)
     println(veri)
 
