@@ -3,7 +3,6 @@ package com.example.nesnetabanliprogramlama
 class Araba(var renk: String,var hiz: Int,var calisiyorMu: Boolean) {
 
 
-
     fun calistir(){
         calisiyorMu = true
     }
@@ -29,9 +28,6 @@ class Araba(var renk: String,var hiz: Int,var calisiyorMu: Boolean) {
         println("Renk: $renk")
         println("Hız: $hiz")
         println("Çalışıyor mu? : $calisiyorMu")
-
-
-
 
     }
 }

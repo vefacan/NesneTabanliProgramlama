@@ -14,12 +14,4 @@ fun main (){
     val hesaplama = Odev3()
 
    hesaplama.faktoriyel(5)
-
-
-
-
-
-
-
-
 }

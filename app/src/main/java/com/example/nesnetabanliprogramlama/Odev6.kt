@@ -15,11 +15,6 @@ fun main (){
             Mesai Saat Ücreti = 20 TL
      */
 
-
     var odev6 = Odev6()
-
     odev6.islem(gun)
-
-
-
 }

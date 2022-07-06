@@ -6,11 +6,9 @@ fun main(){
 
     val girdi = Scanner(System.`in`)
 
-    println("Değergiriniz:")
+        println("Değer giriniz:")
     val girilendeger = girdi.nextDouble()
 
     val odev1 = Odev1()
-    odev1.derece(girilendeger)
-
+        odev1.derece(girilendeger)
 }
-

@@ -18,7 +18,7 @@ fun main(){
     bmw.yavasla(20)
     bmw.bilgiAl()
 
-    val sahin = Araba("Beyaz",30,true)
+    val sahin = Araba("Beyaz",20,true)
 
     sahin.hizlan(120)
     sahin.bilgiAl()

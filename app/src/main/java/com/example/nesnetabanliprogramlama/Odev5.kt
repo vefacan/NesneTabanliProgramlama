@@ -8,7 +8,6 @@ fun main (){
 
     println("Kenar sayısını giriniz:")
     var kenarsayisi = girdi.nextInt()
-
     var islem = Odev5()
 
     islem.islem(kenarsayisi)

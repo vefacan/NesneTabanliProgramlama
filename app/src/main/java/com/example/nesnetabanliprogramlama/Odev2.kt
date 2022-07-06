@@ -11,15 +11,7 @@ fun main() {
     println("Lütfen dikdörtgenin kısa kenarını giriniz:")
     var kisakenar = girdi.nextDouble()
 
-
     val dikdortgen = Odev2()
 
     dikdortgen.islem(kisakenar,uzunkenar)
-
-
-
-
-
-
-
 }
